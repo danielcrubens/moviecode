@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/movies.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/img/icon.png" type="image/png">
+
+  <title>Movie Code</title>
+
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="container">
+        <h1>Filmes Populares</h1>
+        <input id="movie-name" type="text" name="movie-name" placeholder="Digite algum filme para pesquisar...">
+        <div class="d-flex checkbox">
+          <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
+          <p>Mostrar meus filmes favoritos apenas</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="movies">
+        <div class="movie">
+          <div class="movie-informations">
+            <div class="movie-image">
+              <img src="assets/img/avanger.png" alt="Batman (2022)"/>
+            </div>
+            <div class="movie-text">
+              <h4>Batman (2022)</h4>
+              <div class="rating-favorites">
+                <div class="rating">
+                  <img src="/assets/img/star.png" alt="Star Icon"/>
+                  <span>9.2</span>
+                </div>
+                <div class="favorite">
+                  <img src="/assets/img/heart.png" alt="Heart Icon"/>
+                  <span>Favoritar</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="movie-description">
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+          </div>
+        </div>
+    </section>
+
+  </main>
+
+
+
+  <script src="./assets/js/movies.js"></script>
+</body>
+
+</html>
