@@ -45,8 +45,7 @@ h1 {
    color: $white;
 }
 
-input[type="text"] {
- 
+.input-container {
    margin: 0 auto;
    display: flex;
    width: 634px;
@@ -56,17 +55,21 @@ input[type="text"] {
    background: #ffffff38;
    border-radius: 8px;
    margin-top: 2rem;
-   font-size: 18px;
-   font-weight: 500;
-   line-height: 22px;
    padding: 0 12px;
-   color: $text;
+   input{
+      width: 100%;
+      background: transparent;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      color: $text;
+   }
+   img{
+      cursor: pointer;
+      width: 1.5rem;
+   }
 }
-#movie-name {
-   background-image: url(../img/search-icon.svg);
-   background-repeat: no-repeat;
-   background-position: 97% center;
-}
+
 ::-webkit-input-placeholder {
    color: $text;
 }

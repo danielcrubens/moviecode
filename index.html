@@ -20,7 +20,10 @@
     <section>
       <div class="container">
         <h1>Filmes Populares</h1>
-        <input id="movie-name" type="text" name="movie-name" placeholder="Digite algum filme para pesquisar...">
+        <div class="input-container">
+          <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
+          <img src="assets/img/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
+        </div>
         <div class="d-flex checkbox">
           <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
           <p>Mostrar meus filmes favoritos apenas</p>
@@ -28,37 +31,9 @@
       </div>
     </section>
 
-    <section class="movies">
-        <div class="movie">
-          <div class="movie-informations">
-            <div class="movie-image">
-              <img src="assets/img/avanger.png" alt="Batman (2022)"/>
-            </div>
-            <div class="movie-text">
-              <h4>Batman (2022)</h4>
-              <div class="rating-favorites">
-                <div class="rating">
-                  <img src="/assets/img/star.png" alt="Star Icon"/>
-                  <span>9.2</span>
-                </div>
-                <div class="favorite">
-                  <img src="/assets/img/heart.png" alt="Heart Icon"/>
-                  <span>Favoritar</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="movie-description">
-            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-          </div>
-        </div>
-    </section>
+    <section class="movies"></section>
 
   </main>
-
-
-
   <script src="assets/js/movies.js"></script>
 </body>
-
 </html>
